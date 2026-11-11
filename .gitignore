@@ -94,3 +94,6 @@ data/thumbnails/
 
 # Publish pack thumbnails (reviewed assets, not build output)
 !youtube-uploads/packs/*.jpg
+
+# Local upload ledger (runtime state, recreated on every run)
+youtube-uploads/publish-ledger.json
