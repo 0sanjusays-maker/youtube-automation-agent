@@ -1,0 +1,551 @@
+{
+  "generatedAt": "2026-11-11T19:05:00Z",
+  "window": {
+    "from": "2026-11-08",
+    "to": "2026-11-11",
+    "timezone": "Asia/Kolkata",
+    "note": "No videos were created on 8 Nov itself (that folder holds only a shortcut and a doc), so the audit covers 9-11 Nov."
+  },
+  "totals": {
+    "renders": 31,
+    "finals": 9,
+    "working": 15,
+    "duplicates": 7,
+    "note": "9 finals + 15 working cuts + 7 duplicate phone exports = 31 renders. 'finals' means publishable-as-is; long-form (5) and Shorts both live inside that 9."
+  },
+  "projects": [
+    {
+      "key": "maa-ka-aanchal",
+      "name": "Maa Ka Aanchal",
+      "kind": "Hindi emotional short film",
+      "status": "packaged"
+    },
+    {
+      "key": "3-33-am",
+      "name": "3:33 AM — Kabir",
+      "kind": "Anime horror (JJK-style, original art)",
+      "status": "packaged"
+    },
+    {
+      "key": "the-last-chai",
+      "name": "The Last Chai",
+      "kind": "Hindi emotional short film",
+      "status": "packaged"
+    },
+    {
+      "key": "heera",
+      "name": "HEERA",
+      "kind": "Suspense series (Ep 01 done, Ep 02 in progress)",
+      "status": "packaged + in progress"
+    },
+    {
+      "key": "the-last-bench",
+      "name": "The Last Bench",
+      "kind": "2D animatic, teacher/student story",
+      "status": "ready, unpackaged"
+    },
+    {
+      "key": "flat-309",
+      "name": "Flat No. 309",
+      "kind": "Hindi suspense/creepy",
+      "status": "ready, unpackaged"
+    },
+    {
+      "key": "the-box",
+      "name": "The Box",
+      "kind": "Silent stickman motivational film",
+      "status": "ready, unpackaged"
+    },
+    {
+      "key": "biology",
+      "name": "Biology Ch 6 — Control & Coordination",
+      "kind": "Education / exam prep",
+      "status": "ready, unpackaged"
+    },
+    {
+      "key": "phone",
+      "name": "Phone camera clips",
+      "kind": "Raw 4K recordings",
+      "status": "archive"
+    }
+  ],
+  "items": [
+    {
+      "n": 1,
+      "dateIST": "2026-11-11",
+      "timeIST": "17:47",
+      "project": "maa-ka-aanchal",
+      "file": "MAA KA AANCHAL — Living Still 2.5D (full 57s).mp4",
+      "id": "13UWv1lExIoiV9MYs6RcU34Ow5wII2Kw-",
+      "aspect": "9:16",
+      "res": "1080x1920",
+      "duration": "1:00",
+      "type": "FINAL master",
+      "verdict": "Newest master, 2.5D living-stills cut. Best of the three.",
+      "action": "Publish — already in Batch 1 (12 Nov 19:30 IST)"
+    },
+    {
+      "n": 2,
+      "dateIST": "2026-11-11",
+      "timeIST": "17:21",
+      "project": "maa-ka-aanchal",
+      "file": "Maa Ka Aanchal — FINAL (no music, raw audio).mp4",
+      "id": "1vcmdzKwLLSqtcs4LxpXLQD9VUB1w9xvP",
+      "aspect": "9:16",
+      "res": "1080x1920",
+      "duration": "1:00",
+      "type": "Alternate cut",
+      "verdict": "Same film, raw audio. Only useful if you re-score the music.",
+      "action": "Archive — do not upload (duplicate)"
+    },
+    {
+      "n": 3,
+      "dateIST": "2026-11-11",
+      "timeIST": "17:21",
+      "project": "maa-ka-aanchal",
+      "file": "Maa Ka Aanchal — FINAL (with music).mp4",
+      "id": "11-uWaLtf5KYBDIljTzoSfOlnX3VSNdQR",
+      "aspect": "9:16",
+      "res": "1080x1920",
+      "duration": "1:00",
+      "type": "Alternate cut",
+      "verdict": "Older final with music, superseded by the 2.5D master.",
+      "action": "Archive — do not upload (duplicate)"
+    },
+    {
+      "n": 4,
+      "dateIST": "2026-11-11",
+      "timeIST": "16:19",
+      "project": "the-last-bench",
+      "file": "THE LAST BENCH.mp4",
+      "id": "1Zqv_xlDRieLJfcsCGGZ4-0I-6_s69KvX",
+      "aspect": "16:9",
+      "res": "1920x1080",
+      "duration": "0:50",
+      "type": "16:9 master",
+      "verdict": "Clean 1080p master. Not a Short (landscape), but a proper video upload.",
+      "action": "Publish as a regular video — needs a 16:9 thumbnail (Batch 2)"
+    },
+    {
+      "n": 5,
+      "dateIST": "2026-11-11",
+      "timeIST": "16:14",
+      "project": "the-last-chai",
+      "file": "THE LAST CHAI - Instagram 9x16.mp4",
+      "id": "109uhDZbozuCrymNwoCh4N7lQmB0mOUQh",
+      "aspect": "9:16",
+      "res": "1080x1920",
+      "duration": "1:19",
+      "type": "FINAL",
+      "verdict": "Highest-hook story of the lot; 79s keeps it in Shorts range.",
+      "action": "Publish — already in Batch 1 (12 Nov 19:30 IST)"
+    },
+    {
+      "n": 6,
+      "dateIST": "2026-11-11",
+      "timeIST": "15:03",
+      "project": "the-last-bench",
+      "file": "THE LAST BENCH - Instagram 9x16.mp4",
+      "id": "1grfUVXlKW1Pxo3hQAgOEPcaYvQdTZn5Z",
+      "aspect": "9:16",
+      "res": "1080x1920",
+      "duration": "1:07",
+      "type": "Social cut",
+      "verdict": "Ready 9:16 cut of the 16:9 master. Strong teacher/student emotional beat.",
+      "action": "Publish — Batch 2 (needs thumbnail + title)"
+    },
+    {
+      "n": 7,
+      "dateIST": "2026-11-11",
+      "timeIST": "14:56",
+      "project": "flat-309",
+      "file": "FLAT NO. 309 - Instagram Reels 9x16.mp4",
+      "id": "11MXuEQdnacfoh9Wzp8LuMUE5uz6wx8Jb",
+      "aspect": "9:16",
+      "res": "1080x1920",
+      "duration": "0:50",
+      "type": "Social cut",
+      "verdict": "Best Flat 309 version — vertical, 50s, hook intact.",
+      "action": "Publish — Batch 2 (needs thumbnail + title)"
+    },
+    {
+      "n": 8,
+      "dateIST": "2026-11-11",
+      "timeIST": "14:45",
+      "project": "flat-309",
+      "file": "FLAT NO. 309 - Hindi Voiceover.mp4",
+      "id": "18tOo9gYY2jUd7FgnVRemF2_WS00FFr-X",
+      "aspect": "16:9",
+      "res": "1920x1080",
+      "duration": "0:50",
+      "type": "Alternate version",
+      "verdict": "Landscape version with VO — same story as the 9:16 cut.",
+      "action": "Hold — pick one cut only, avoid duplicate uploads"
+    },
+    {
+      "n": 9,
+      "dateIST": "2026-11-11",
+      "timeIST": "13:56",
+      "project": "the-last-bench",
+      "file": "THE LAST BENCH - Voiced 2D Animatic.mp4",
+      "id": "1agyGA4urDQp-gTrvqTaCFgSQv2O1ILCP",
+      "aspect": "16:9",
+      "res": "1920x1080",
+      "duration": "1:07",
+      "type": "Working cut",
+      "verdict": "Voiced version of an earlier animatic — superseded by the final master.",
+      "action": "Archive"
+    },
+    {
+      "n": 10,
+      "dateIST": "2026-11-11",
+      "timeIST": "13:46",
+      "project": "flat-309",
+      "file": "FLAT NO. 309.mp4",
+      "id": "19qATZtSNTRZ1JXtwl2V4FdyLULkVR13S",
+      "aspect": "16:9",
+      "res": "1920x1080",
+      "duration": "0:50",
+      "type": "Base version",
+      "verdict": "Original landscape base, no social framing.",
+      "action": "Archive"
+    },
+    {
+      "n": 11,
+      "dateIST": "2026-11-11",
+      "timeIST": "13:44",
+      "project": "3-33-am",
+      "file": "3-33-AM-KABIR-JJK-Horror-9x16.mp4",
+      "id": "1a607Mt5RNU6GXc4Zn-ancC1jMVqLGEYx",
+      "aspect": "9:16",
+      "res": "1080x1920",
+      "duration": "0:54",
+      "type": "FINAL",
+      "verdict": "54s anime horror, Hindi dialogue + subs already synced.",
+      "action": "Publish — already in Batch 1 (13 Nov 19:30 IST)"
+    },
+    {
+      "n": 12,
+      "dateIST": "2026-11-11",
+      "timeIST": "13:42",
+      "project": "phone",
+      "file": "Video November 11, 2026 - 1:38PM.mp4",
+      "id": "1FI1VTMAhMv6sDDCqbbMe2uLzUBGpIlAc",
+      "aspect": "9:16",
+      "res": "2160x3840",
+      "duration": "0:10",
+      "type": "Raw 4K clip",
+      "verdict": "10-second 4K phone capture, no story.",
+      "action": "Archive / delete (1 of 7 identical)"
+    },
+    {
+      "n": 13,
+      "dateIST": "2026-11-11",
+      "timeIST": "13:42",
+      "project": "phone",
+      "file": "Video November 11, 2026 - 1:36PM.mp4",
+      "id": "13COSCEIjXz-rjZ5oXCtxDlAJeGLFGkv8",
+      "aspect": "9:16",
+      "res": "2160x3840",
+      "duration": "0:10",
+      "type": "Raw 4K clip",
+      "verdict": "Duplicate export, byte-identical size to the others.",
+      "action": "Archive / delete (2 of 7)"
+    },
+    {
+      "n": 14,
+      "dateIST": "2026-11-11",
+      "timeIST": "13:42",
+      "project": "phone",
+      "file": "Video November 11, 2026 - 1:36PM.mp4",
+      "id": "1OD-mVdAAuCfNrwgxmmdxQl45_wOzU2iv",
+      "aspect": "9:16",
+      "res": "2160x3840",
+      "duration": "0:10",
+      "type": "Raw 4K clip",
+      "verdict": "Duplicate export.",
+      "action": "Archive / delete (3 of 7)"
+    },
+    {
+      "n": 15,
+      "dateIST": "2026-11-11",
+      "timeIST": "13:42",
+      "project": "phone",
+      "file": "Video November 11, 2026 - 1:36PM.mp4",
+      "id": "1y_zOrtIxJLYqaymeJd3cF3A3ZJm7KQxC",
+      "aspect": "9:16",
+      "res": "2160x3840",
+      "duration": "0:10",
+      "type": "Raw 4K clip",
+      "verdict": "Duplicate export.",
+      "action": "Archive / delete (4 of 7)"
+    },
+    {
+      "n": 16,
+      "dateIST": "2026-11-11",
+      "timeIST": "13:42",
+      "project": "phone",
+      "file": "Video November 11, 2026 - 1:36PM.mp4",
+      "id": "1DBBqYU6ecCzde_ubowqmCM00443j9BOC",
+      "aspect": "9:16",
+      "res": "2160x3840",
+      "duration": "0:10",
+      "type": "Raw 4K clip",
+      "verdict": "Duplicate export (10.0s vs 9.96s on the rest).",
+      "action": "Archive / delete (5 of 7)"
+    },
+    {
+      "n": 17,
+      "dateIST": "2026-11-11",
+      "timeIST": "13:42",
+      "project": "phone",
+      "file": "Video November 11, 2026 - 1:36PM.mp4",
+      "id": "17o3R51e6Q5_RydUh3kaKjAexDVpkRAVi",
+      "aspect": "9:16",
+      "res": "2160x3840",
+      "duration": "0:10",
+      "type": "Raw 4K clip",
+      "verdict": "Duplicate export.",
+      "action": "Archive / delete (6 of 7)"
+    },
+    {
+      "n": 18,
+      "dateIST": "2026-11-11",
+      "timeIST": "13:42",
+      "project": "phone",
+      "file": "Video November 11, 2026 - 1:36PM.mp4",
+      "id": "1t0xlPZA8r-ZHmZPfBA6fTBsyHUbQxeAH",
+      "aspect": "9:16",
+      "res": "2160x3840",
+      "duration": "0:10",
+      "type": "Raw 4K clip",
+      "verdict": "Duplicate export.",
+      "action": "Archive / delete (7 of 7)"
+    },
+    {
+      "n": 19,
+      "dateIST": "2026-11-11",
+      "timeIST": "11:25",
+      "project": "the-box",
+      "file": "THE-BOX-V2-Cinematic-Preview-28s-9x16.mp4",
+      "id": "1GTiFPrkKwRVL2B7j86BeATMscX0-kPiQ",
+      "aspect": "9:16",
+      "res": "1080x1920",
+      "duration": "0:28",
+      "type": "Preview / teaser",
+      "verdict": "Cinematic 28s teaser. Good as a trailer, weak as the main upload.",
+      "action": "Optional Batch 2 teaser, or keep for the full film launch"
+    },
+    {
+      "n": 20,
+      "dateIST": "2026-11-11",
+      "timeIST": "11:04",
+      "project": "the-box",
+      "file": "THE BOX — Stickman Silent Film (2-40).mp4",
+      "id": "1_oNdZdQST0sDG44wHPTQttQtFcdn9oix",
+      "aspect": "16:9",
+      "res": "1280x720",
+      "duration": "2:40",
+      "type": "Full film",
+      "verdict": "Complete 2:40 silent film — the real long-form asset. Only 720p.",
+      "action": "Publish as regular video (Batch 2) — consider a 1080p re-export"
+    },
+    {
+      "n": 21,
+      "dateIST": "2026-11-10",
+      "timeIST": "23:26",
+      "project": "the-box",
+      "file": "THE-BOX-Preview-20s-9x16.mp4",
+      "id": "1-7Nh7VL_62a9dOsyibuIWaK2nqUXatcP",
+      "aspect": "9:16",
+      "res": "1080x1920",
+      "duration": "0:20",
+      "type": "Working preview",
+      "verdict": "Superseded by the 28s V2 preview.",
+      "action": "Archive"
+    },
+    {
+      "n": 22,
+      "dateIST": "2026-11-10",
+      "timeIST": "23:07",
+      "project": "heera",
+      "file": "Heera — Updated Visual Story — 90s — No Voice.mp4",
+      "id": "1DagDsndcE4YGzEjf9JqsiBvFds3S1q_2",
+      "aspect": "9:16",
+      "res": "1080x1920",
+      "duration": "1:30",
+      "type": "Working cut (mute)",
+      "verdict": "Visual-lock cut without narration — this is the Ep 02 picture lock.",
+      "action": "Finish: add VO + music → final export → Batch 3"
+    },
+    {
+      "n": 23,
+      "dateIST": "2026-11-10",
+      "timeIST": "22:28",
+      "project": "heera",
+      "file": "Heera — Part 3 — 90 seconds.mp4",
+      "id": "1ibTjcQBf8WzFy8NAxQCkbt9UfwN4Lii8",
+      "aspect": "9:16",
+      "res": "1080x1920",
+      "duration": "1:30",
+      "type": "Working cut",
+      "verdict": "Ep 03 cut. Needs a story/continuity check against Ep 01 before it ships.",
+      "action": "Hold — verify script + VO, then schedule after Ep 02"
+    },
+    {
+      "n": 24,
+      "dateIST": "2026-11-10",
+      "timeIST": "17:24",
+      "project": "heera",
+      "file": "Heera Reel 2 - Animatic V6 Scene Tags.mp4",
+      "id": "1w8BJtiRWAJliUNxXiKFui8renGuKBmxe",
+      "aspect": "9:16",
+      "res": "1080x1920",
+      "duration": "1:30",
+      "type": "Animatic V6",
+      "verdict": "Best animatic revision — scene tags still burned in.",
+      "action": "Reference only; produce a clean export from this timeline"
+    },
+    {
+      "n": 25,
+      "dateIST": "2026-11-10",
+      "timeIST": "17:05",
+      "project": "heera",
+      "file": "Heera Reel 2 - Animatic V5 Light & Tagline Review.mp4",
+      "id": "1DVHIRuwlzMmdf4V4suPa_9LYn3tssCPN",
+      "aspect": "9:16",
+      "res": "1080x1920",
+      "duration": "1:30",
+      "type": "Animatic V5",
+      "verdict": "Superseded by V6.",
+      "action": "Archive"
+    },
+    {
+      "n": 26,
+      "dateIST": "2026-11-10",
+      "timeIST": "16:33",
+      "project": "heera",
+      "file": "Heera Reel 2 - Animatic V4 Integrated Scenes 1080x1920.mp4",
+      "id": "1YdZLWF_M7hYWMdgzi8arJCbA1xSPFubi",
+      "aspect": "9:16",
+      "res": "1080x1920",
+      "duration": "1:30",
+      "type": "Animatic V4",
+      "verdict": "Superseded by V6.",
+      "action": "Archive"
+    },
+    {
+      "n": 27,
+      "dateIST": "2026-11-10",
+      "timeIST": "15:45",
+      "project": "heera",
+      "file": "Heera Reel 2 - Silent Animatic V3 Clean Alpha.mp4",
+      "id": "1FmuXcQtbD9ZuWJ2kFY3g-MWmtXFE16R0",
+      "aspect": "9:16",
+      "res": "720x1280",
+      "duration": "1:30",
+      "type": "Animatic V3",
+      "verdict": "720p, superseded.",
+      "action": "Archive"
+    },
+    {
+      "n": 28,
+      "dateIST": "2026-11-10",
+      "timeIST": "15:36",
+      "project": "heera",
+      "file": "Heera Reel 2 - Silent Animatic V2 Frame Checked.mp4",
+      "id": "1uckOG-tnAPh7LnRRjTIdHXUj3lncRrsI",
+      "aspect": "9:16",
+      "res": "720x1280",
+      "duration": "1:30",
+      "type": "Animatic V2",
+      "verdict": "720p, superseded.",
+      "action": "Archive"
+    },
+    {
+      "n": 29,
+      "dateIST": "2026-11-10",
+      "timeIST": "15:25",
+      "project": "heera",
+      "file": "Heera Reel 2 - Silent Visual Animatic V1.mp4",
+      "id": "1qVXA9dLvwP8Zf8OUY3rtFoh94uoFMgjO",
+      "aspect": "9:16",
+      "res": "720x1280",
+      "duration": "1:30",
+      "type": "Animatic V1",
+      "verdict": "720p first pass.",
+      "action": "Archive"
+    },
+    {
+      "n": 30,
+      "dateIST": "2026-11-10",
+      "timeIST": "11:19",
+      "project": "heera",
+      "file": "Heera_Reel1_Official_60FPS_Anime.mp4",
+      "id": "1Gg6tUerd799MkWVAQrgNzADS0OJsZz5J",
+      "aspect": "9:16",
+      "res": "1080x1920",
+      "duration": "1:30",
+      "type": "FINAL (Ep 01)",
+      "verdict": "90s series opener, 60fps anime look. Strongest production value you have.",
+      "action": "Publish — already in Batch 1 (15 Nov 19:30 IST)"
+    },
+    {
+      "n": 31,
+      "dateIST": "2026-11-09",
+      "timeIST": "12:41",
+      "project": "biology",
+      "file": "Ch 6 Control and Coordination Part II.mp4",
+      "id": "1eBmC5h1bENEuYb_UFN2mJW2WKi4ZnzXf",
+      "aspect": "9:16",
+      "res": "1080x1920",
+      "duration": "1:14",
+      "type": "FINAL (education)",
+      "verdict": "Only non-story upload in the batch — Class 10 exam prep, vertical, 74s.",
+      "action": "Publish — Batch 2 education slot (different audience, same channel?)"
+    }
+  ],
+  "nextBatch": {
+    "batch2Shorts": [
+      {
+        "file": "THE LAST BENCH - Instagram 9x16.mp4",
+        "when": "Tue 17 Nov 19:30 IST",
+        "why": "Emotional teacher story, 67s, already cut"
+      },
+      {
+        "file": "FLAT NO. 309 - Instagram Reels 9x16.mp4",
+        "when": "Thu 19 Nov 19:30 IST",
+        "why": "50s suspense, fastest hook of the three"
+      },
+      {
+        "file": "Ch 6 Control and Coordination Part II.mp4",
+        "when": "Sat 21 Nov 10:00 IST",
+        "why": "Education Shorts perform on weekend morning search traffic (board prep)"
+      }
+    ],
+    "batch2Regular": [
+      {
+        "file": "THE BOX — Stickman Silent Film (2-40).mp4",
+        "when": "Sun 22 Nov 19:30 IST",
+        "why": "2:40 long-form, needs a 16:9 thumbnail first"
+      },
+      {
+        "file": "THE LAST BENCH.mp4 (16:9)",
+        "when": "after The Box",
+        "why": "Optional second long-form; otherwise keep as the Shorts master only"
+      }
+    ],
+    "needsWork": [
+      "HEERA Ep 02 — picture lock is 'Updated Visual Story — No Voice'; add VO + music, clean export, then schedule after Ep 01 settles (7 days).",
+      "HEERA Ep 03 — 'Part 3 — 90 seconds' needs a continuity/script pass before it becomes a final.",
+      "The Box — 720p is the only weakness; a 1080p re-export is worth it before the long-form push."
+    ],
+    "archive": [
+      "Maa Ka Aanchal — 2 alternate finals (with / without music)",
+      "Heera — 5 animatics (V1–V5) + 'Voiced 2D Animatic'",
+      "Flat No. 309 — 2 non-9:16 versions",
+      "The Box — 20s preview",
+      "7 duplicate 4K phone clips (identical 31 MB files)"
+    ]
+  }
+}
