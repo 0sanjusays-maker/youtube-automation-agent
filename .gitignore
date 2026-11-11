@@ -91,3 +91,6 @@ data/thumbnails/
 
 # Claude worktrees
 .claude/worktrees/
+
+# Publish pack thumbnails (reviewed assets, not build output)
+!youtube-uploads/packs/*.jpg
