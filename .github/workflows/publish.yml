@@ -1,0 +1,83 @@
+name: Publish to YouTube
+
+# Uploads whatever in the manifest is due and not yet in the ledger.
+# Runs on GitHub's machines, so nothing has to stay awake on your laptop.
+
+on:
+  schedule:
+    # 09:30 UTC daily = 15:00 IST. Two runs a day would also be fine; one is enough
+    # because every upload is scheduled to a future publishAt, not published live.
+    - cron: '30 9 * * *'
+  workflow_dispatch:
+    inputs:
+      manifest:
+        description: 'Manifest to use'
+        required: true
+        default: 'youtube-uploads/manifest.json'
+        type: choice
+        options:
+          - youtube-uploads/manifest.json
+          - youtube-uploads/manifest-batch2.json
+      dry_run:
+        description: 'Dry run (no uploads)'
+        required: true
+        default: true
+        type: boolean
+      force:
+        description: 'Re-upload even if the ledger says it is done'
+        required: false
+        default: false
+        type: boolean
+
+permissions:
+  contents: read
+
+concurrency:
+  group: publish-youtube
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      # googleapis is the only package this path needs. Installing the whole
+      # dependency tree would drag in sqlite3, which needs a native build.
+      - name: Install googleapis
+        run: npm install --no-save --no-audit --no-fund googleapis@173
+
+      - name: Show what is due
+        env:
+          YT_OAUTH_TOKEN: ${{ secrets.YT_OAUTH_TOKEN }}
+        run: |
+          node scripts/publish-oauth.js \
+            --manifest "${{ github.event.inputs.manifest || 'youtube-uploads/manifest.json' }}" \
+            --dry-run
+
+      - name: Upload
+        if: ${{ github.event_name == 'schedule' || github.event.inputs.dry_run == 'false' }}
+        env:
+          YT_OAUTH_TOKEN: ${{ secrets.YT_OAUTH_TOKEN }}
+        run: |
+          ARGS=""
+          if [ "${{ github.event.inputs.force }}" = "true" ]; then ARGS="--all"; fi
+          node scripts/publish-oauth.js \
+            --manifest "${{ github.event.inputs.manifest || 'youtube-uploads/manifest.json' }}" \
+            --publish $ARGS
+
+      - name: Keep the ledger between runs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: publish-ledger
+          path: youtube-uploads/publish-ledger.json
+          if-no-files-found: ignore
+          retention-days: 90
