@@ -12,6 +12,10 @@ config/credentials.json
 config/tokens.json
 config/*.key
 config/*.pem
+# OAuth material written by scripts/yt-upload.js --setup
+config/yt-auth.json
+config/client_secret*.json
+config/client_secret.json
 
 # API Keys and Secrets
 *.key
